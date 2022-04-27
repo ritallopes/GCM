@@ -1,1 +1,1 @@
-teste pull and fetch
+teste pull (fetch+merge) and fetch
