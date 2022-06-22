@@ -1,0 +1,13 @@
+name: Hello actions 1
+on: [push]
+jobs: 
+  Hello-job-1:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "Execucao do meu primeiro job"
+      run: echo "Varios comandos"
+
+  Hello-jobs-2:
+    runs-on: ubuntu latest
+    steps: 
+      run: echo "Outro job"
